@@ -1,0 +1,422 @@
+<html class="h-full">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Remove the line below if you don't want to use TailwindCSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="styles.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bowlby+One&family=Oswald:wght@200..700&display=swap"
+        rel="stylesheet">
+
+</head>
+
+<!-- Change code below this line -->
+
+<body class="bg-[#181028] snap-y snap-mandatory overflow-y-scroll md:h-screen ">
+    <section class="snap-start  w-full flex items-center justify-center overflow-x-hidden ">
+        <div class="bg-[#ef491f] text-[#181028] md:p-20 p-6 space-y-4 shadow-lg w-screen md:max-w-[1000px] ">
+
+            <div class="container md:pt-10 flex flex-col gap-14  h-full w-full ">
+                <div>
+                    <nav class="flex flex-row justify-between relative md:static text-black">
+                        <logo class="font-extrabold md:text-[30px] text-[28px] bowlby-one-regular ">JO'S©
+                        </logo>
+                        <div class="md:hidden flex flex-col gap-1 items-center justify-center rounded-full bg-black w-[50px] h-[50px] sm:-mr-10 z-10"
+                            id="menuButton">
+                            <span class="bg-white w-4 h-[2px]"></span>
+                            <span class="bg-white w-4 h-[2px]"></span>
+                            <span class="bg-white w-4 h-[2px]"></span>
+                        </div>
+                        <div class="md:flex flex-row gap-4 font-bold text-[16px] oswald cursor-pointer hidden">
+                            <navItem><a class="hover:border-b border-black "  href="#about">ABOUT</a></navItem>
+                            <navItem><a class="hover:border-b border-black"  href="#menu">MENU</a></navItem>
+                            <navItem><a class="hover:border-b border-black"  href="#reviews">REVIEWS</a></navItem>
+                            <navItem><a  class="hover:border-b border-black"  href="#social">SOCIAL</a></navItem>
+                        </div>
+                    </nav>
+                    <div id="menuBar" class="hidden">
+                        <div
+                            class="bg-[#ef491f] flex flex-col items-center justify-center gap-8 font-bold text-[28px] oswald cursor-pointer absolute z-30 w-full h-full ">
+                            <navItem><a href="#about">ABOUT</a></navItem>
+                            <navItem><a href="#menu">MENU</a></navItem>
+                            <navItem><a href="#reviews">REVIEWS</a></navItem>
+                            <navItem><a href="#social">SOCIAL</a></navItem>
+                            <navItem><img class="w-[90px] h-[90px] md:inline-block" src="https://i.ibb.co/ccLJtMR/smile.png" alt="smiley">
+                            </navItem>
+                        </div>
+                    </div>
+                </div>
+                <div class="flex flex-row gap-10 md:items-center md:justify-center">
+                    <div class="container flex flex-col items-start gap-5 relative z-10 md:static text-black">
+                        <div class="flex flex-col md:w-[500px] space-y-0 ">
+                            <span class="text-[50px] md:text-[70px] font-extrabold bowlby-one-regular leading-none ">NEW YORK'S</span>
+                            <span class="text-[45px] md:text-[70px] bowlby-one-regular font-extrabold leading-none flex flex-row  items-center justify-start "> FAVORITE <img class="w-[75px] h-[75px] hidden md:inline-block " src="https://i.ibb.co/ccLJtMR/smile.png" alt="smiley"></span>
+                            <span class="text-[50px] md:text-[70px] bowlby-one-regular font-extrabold leading-none ">BURGER</span>
+                        </div>
+                        <Desc class=" md:text-[20px] text-[15px] font-medium oswald ">In a world so painfully serious,
+                            yet so
+                            ridiculous,
+                            you
+                            knew
+                            it was only a matter of time before plant-based steak became a thing.</Desc>
+                        <div
+                            class="container flex flex-col md:items-start items-center justify-center sm:mt-[200px] gap-5 mt-[150px] md:mt-0">
+                            <div class="md:hidden "></div>
+                            <button class="md:text-[20px] text-[20px] bg-black text-white md:px-7  font-medium  z-10 oswald  py-4 flex justify-center items-center md:w-[250px] w-[350px] hover:bg-[#F6F2F0] hover:text-black ">BROWSE MENU</button>
+
+                        </div>
+                    </div>
+                    <div class="">
+                        <div
+                            class="flex items-start  w-[225px] sm:auto md:w-full absolute z-0  sm:left-[30%] left-[15%] md:static">
+                            <img  class="transform -rotate-2 md:pt-0 pt-[200px] hover:transform hover:rotate-2" src="https://i.ibb.co/Xs9ZD4G/pexels-alleksana-7497224-1.png" alt="Burger">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="snap-start  w-full flex items-center justify-center " id="about">
+        <div
+            class="bg-[#F6F2F0] text-[#181028] shadow-lg  w-full max-w-[1000px]  overflow-x-hidden p-5 md:p-20 mx-auto ">
+            <div class="container flex flex-col justify-center items-center md:gap-20 gap-[20px] ">
+                <div class=" md:relative md:w-[650px]  static">
+                    <p
+                        class="md:absolute static text-[#ef491f] bowlby-one-regular font-extrabold md:text-[46px] text-[26px] leading-none ">
+                        HI, WE'RE JO'S
+                        BURGERS, A COLLECTIVE OF CREATORS WHO LOVE BURGER
+                        AND GOOD MOOD</p>
+                </div>
+                <div class="flex flex-col gap-2 md:items-center md:mt-16">
+                    <img class="md:w-[55%] md:h-[55%] md:ml-[425px] "src="https://icodethis.com/images/jos_burger/creator.jpeg">
+                    <p class="md:text-[15px] text-[12px] font-normal oswald md:ml-[325px] md:text-start text-center">
+                        This is Jo. He started everything 40 years ago.</p>
+                </div>
+                <div class="hidden md:relative md:block h-[50px] md:top-[40px] w-full pb-[100px]">
+                    <p
+                        class="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 -rotate-3 bg-[#eef766] text-[#ef491f] text-[15px] font-semibold oswald  w-[1500px] text-center p-3 ">
+                        LIFE IS TOO SHORT TO EAT JUST SALADS ✸ LIFE IS TOO SHORT TO EAT JUST SALADS ✸ LIFE IS TOO SHORT
+                        TO
+                        EAT JUST SALADS ✸LIFE IS TOO SHORT TO EAT JUST SALADS ✸
+                    </p>
+                    <p
+                        class=" absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 rotate-3 bg-[#eef766] text-[#ef491f] text-[15px] font-semibold oswald w-[1500px] text-center p-3">
+                        LIFE IS TOO SHORT TO EAT JUST SALADS ✸ LIFE IS TOO SHORT TO EAT JUST SALADS ✸ LIFE IS TOO SHORT
+                        TO
+                        EAT JUST SALADS ✸ LIFE IS TOO SHORT TO EAT JUST SALADS ✸
+                    </p>
+                </div>
+
+            </div>
+        </div>
+    </section>
+    <section class="snap-start w-full flex items-center justify-center ">
+        <div class="bg-[#F6F2F0] text-[#181028] p-8 space-y-6 shadow-lg w-full max-w-[1000px] pb-[100px]">
+            <div class="container flex flex-col md:flex-row gap-5 justify-center items-center lg:mt-32">
+                <div class="md:flex-1">
+                    <img class="object-contain w-full" src="https://icodethis.com/images/jos_burger/footer_1.jpg">
+                </div>
+                <div class="text-[#ef491f] flex flex-col gap-2 justify-center md:flex-1">
+                    <span class="bowlby-one-regular md:text-[50px] text-[30px] leading-none">FOOD IS FOR
+                        EVERYONE.</span>
+                    <p class="oswald md:text-[20px] text-[18px]">Lorem ipsum dolor sit amet, consectetur adipiscing
+                        elit, sed do eiusmod tempor incididunt ut labore et dolore magna
+                        aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
+                        ex ea commodo consequat.</p>
+                </div>
+            </div>
+    </section>
+    <section class="md:h-[400px] h-[375px] w-full snap-start flex justify-center items-center">
+        <div
+            class="bg-[url('https://i.ibb.co/6g4fvmq/simona-sergi-CLn3-Egvg8oc-unsplash-1.png')] bg-cover bg-center h-full bg-no-repeat  hero md:bg-[center_90%] md:max-w-[1000px] w-full flex justify-center items-center relative pb-[100px]">
+            <div class="flex md:flex-row flex-col justify-center items-center md:w-full w-[15px]">
+                <p class="bowlby-one-regular md:text-[35px] text-white shadow-sm text-center ">WE'RE DIFFERENT</p>
+                <div class="circle  bg-[#ef491f] hover:bg-blue-900 ">
+                    <div class="triangle "></div>
+                </div>
+            </div>
+            <img src="https://i.ibb.co/VqNBQXw/Group-3539.png" class="absolute top-[350px] left-[10px] w-[100px] md:w-[150px] md:top-[350px] ">
+        </div>
+    </section>
+    <section class="snap-start  w-full flex items-center justify-center" id="menu">
+        <div
+            class="bg-[#f6f2ef] text-[#181028] md:p-16 p-10 space-y-4 shadow-lg  w-full max-w-[1000px] mx-auto overflow-x-hidden">
+            <div class="container flex flex-col gap-2 justify-center ">
+                <div class="mt-10 lg:mt-0 flex flex-row">
+                    <span class="text-[#ef491f] md:text-[40px] text-[35px] bowlby-one-regular leading-none ">OUR BURGERS </span>
+                    <img class="w-9 h-9 md:ml-2 md:w-10 md:h-auto relative  border-b border-b-gray-400" id="animatedIcon" src="https://cdn-icons-png.flaticon.com/512/9561/9561688.png">
+                </div>
+                <div>
+                    <p class="text-[#ef491f] md:w-[65%] text-[16px] oswald">Lorem ipsum dolor sit amet, consectetur
+                        adipiscing elit, sed do eiusmod
+                        tempor incididunt ut labore et
+                        dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi
+                        ut
+                        aliquip
+                        ex ea commodo consequat.
+                    </p>
+                </div>
+                <div class="-mt-[40px]">
+                    <svg width="70" height="70" viewBox="0 0 200 200" fill="none" xmlns="http://www.w3.org/2000/svg"
+                        class="transform rotate-[20deg] relative  pt-0 top-[50px] md:left-[150px] sm:left-[250px] left-[175px]">
+                        <path
+                            d="M93.6797 5.15479C97.359 2.15401 102.641 2.15401 106.32 5.15479L114.253 11.625C116.75 13.6608 120.074 14.3696 123.183 13.5291L133.039 10.8652C137.616 9.62811 142.432 11.775 144.572 16.0058L149.229 25.2154C150.679 28.0814 153.416 30.0768 156.588 30.5793L166.717 32.184C171.384 32.9234 174.897 36.829 175.139 41.5483L175.672 51.9384C175.836 55.133 177.519 58.0565 180.199 59.8033L188.865 65.452C192.811 68.0247 194.427 73.0033 192.743 77.4035L189.015 87.1465C187.874 90.1271 188.225 93.4731 189.958 96.1526L195.618 104.899C198.175 108.852 197.629 114.053 194.306 117.389L186.976 124.748C184.722 127.011 183.684 130.214 184.184 133.369L185.815 143.668C186.552 148.327 183.933 152.868 179.531 154.564L169.921 158.264C166.93 159.416 164.672 161.931 163.849 165.029L161.188 175.047C159.973 179.623 155.716 182.719 150.989 182.466L140.78 181.92C137.567 181.748 134.468 183.132 132.452 185.639L126.014 193.647C123.04 197.346 117.876 198.445 113.653 196.277L104.567 191.612C101.7 190.141 98.2999 190.141 95.4331 191.612L86.3465 196.277C82.1243 198.445 76.9601 197.346 73.9862 193.647L67.548 185.639C65.5321 183.132 62.433 181.748 59.2203 181.92L49.0111 182.466C44.284 182.719 40.0271 179.623 38.8119 175.047L36.1507 165.029C35.3279 161.931 33.0702 159.416 30.0792 158.264L20.4691 154.564C16.0666 152.868 13.4477 148.327 14.1855 143.668L15.8162 133.369C16.3157 130.214 15.2781 127.011 13.024 124.748L5.69367 117.389C2.37113 114.053 1.82509 108.852 4.38248 104.899L10.0415 96.1526C11.7752 93.4731 12.1257 90.1271 10.9851 87.1465L7.25661 77.4035C5.57276 73.0033 7.18856 68.0247 11.1354 65.452L19.8014 59.8033C22.4812 58.0565 24.1636 55.133 24.3275 51.9384L24.8607 41.5483C25.1029 36.829 28.6155 32.9234 33.2828 32.184L43.4118 30.5793C46.5838 30.0768 49.3214 28.0814 50.7708 25.2154L55.4283 16.0058C57.5679 11.775 62.3844 9.6281 66.9613 10.8652L76.8169 13.5291C79.9264 14.3696 83.2504 13.6608 85.7465 11.625L93.6797 5.15479Z"
+                            fill="#eef766" />
+                        <!-- Centered Text -->
+                        <text x="100" y="110" text-anchor="middle" dominant-baseline="middle" font-size="40"
+                            font-weight="bold" font-family="sans-serif" fill="#ef491f" class="oswald ">
+                            NEW
+                        </text>
+                    </svg>
+                </div>
+                <div class="flex md:flex-row  flex-col md:gap-3 gap-10 md:w-[850px] w-[225px] cards ">
+                    <div class="hover:scale-105 hover:rotate-x-6 transition-transform duration-500 hover:transform perspective-1000">
+                        <img src="https://icodethis.com/images/jos_burger/burger_1.jpg" class=" md:w-[700px] w-[650px] md:h-[200px] h-[200px]">
+                        <div class="flex flex-col items-center justify-center bg-white p-3">
+                            <span class="bowlby-one-regular">SHRIMP YO!</span>
+                            <p class="oswald text-[10px] text-center">Grilled shrimp burger with coleslaw in a
+                                homemade
+                                fluffy bun</p>
+                        </div>
+                    </div>
+                    <div  class="hover:scale-105 hover:rotate-x-6 transition-transform duration-500 transform perspective-1000">
+                        <img src="https://icodethis.com/images/jos_burger/burger_2.jpg" class=" md:w-[700px] md:h-[200px] w-[650px] h-[200px]">
+                        <div class="flex flex-col items-center justify-center bg-white p-3">
+                            <span class="bowlby-one-regular">DOUBLE TROUBLE</span>
+                            <p class="oswald text-[10px] text-center">Angus Beef burger with Gauda cheese and bacon
+                                in a
+                                sesame bun</p>
+                        </div>
+                    </div>
+                    <div  class="hover:scale-105 hover:rotate-x-6 transition-transform duration-500 transform perspective-1000">
+                        <img src="https://icodethis.com/images/jos_burger/burger_3.jpg" class=" md:w-[700px] w-[650px] md:h-[200px] h-[200px]">
+                        <div class="flex flex-col items-center justify-center bg-white p-3">
+                            <span class="bowlby-one-regular">JUICY JO</span>
+                            <p class="oswald text-[10px] text-center">Beef Burger with fried onion toped with ragu
+                                sauce
+                                in a rye bun</p>
+                        </div>
+                    </div>
+                    <div  class="hover:scale-105 hover:rotate-x-6 transition-transform duration-500 transform perspective-1000">
+                        <img src="https://icodethis.com/images/jos_burger/burger_4.jpg" class=" md:w-[700px] w-[650px] md:h-[200px] h-[200px]">
+                        <div class="flex flex-col items-center justify-center bg-white p-3">
+                            <span class="bowlby-one-regular">CRISPY CHI</span>
+                            <p class="oswald text-[10px] text-center"> Beef Burger with fried onion toped with ragu
+                                sauce in a rye bun</p>
+                        </div>
+                    </div>
+                    <div class="md:hidden relative  h-[50px] md:top-[40px] w-full">
+                        <p
+                            class="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 -rotate-3 bg-[#eef766] text-[#ef491f] text-[15px] font-semibold oswald  w-[1500px] text-center p-3 ">
+                            LIFE IS TOO SHORT TO EAT JUST SALADS ✸ LIFE IS TOO SHORT TO EAT JUST SALADS ✸ LIFE IS TOO
+                            SHORT TO
+                            EAT JUST SALADS ✸LIFE IS TOO SHORT TO EAT JUST SALADS ✸
+                        </p>
+                        <p
+                            class=" absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 rotate-3 bg-[#eef766] text-[#ef491f] text-[15px] font-semibold oswald w-[1500px] text-center p-3">
+                            LIFE IS TOO SHORT TO EAT JUST SALADS ✸ LIFE IS TOO SHORT TO EAT JUST SALADS ✸ LIFE IS TOO
+                            SHORT TO
+                            EAT JUST SALADS ✸ LIFE IS TOO SHORT TO EAT JUST SALADS ✸
+                        </p>
+                    </div>
+                </div>
+            </div>
+    </section>
+    <section class="snap-start  w-full flex items-center justify-center" id="reviews">
+        <div class="bg-[#f6f2ef] text-[#181028] md:p-20 p-10 space-y-4 shadow-lg w-full max-w-[1000px] ">
+            <div class="container flex flex-col gap-1 md:justify-center ">
+                <div class="">
+                    <span class="text-[#ef491f] md:text-[45px] text-[30px] bowlby-one-regular" >SOME REVIEWS</span>
+                </div>
+                <div >
+                    <p class="text-[#ef491f] md:w-[65%] text-[16px] oswald">Lorem ipsum dolor sit amet, consectetur
+                        adipiscing elit, sed do eiusmod
+                        tempor incididunt ut labore et
+                        dolore magna aliqua.
+                </div>
+                <div  class="container  sm:columns-2 md:columns-3 columns-1 gap-3 mt-[25px]">
+                    <div class="break-inside-avoid mb-4 bg-white p-3 hover:shadow-xl rounded shadow-sm " data-index="1">
+                        <div class="flex flex-row hover:flex-col bg-white ">
+                            <img src="https://aaps.space/kundli/park-bo-gum/park-bo-gum.jpeg"
+                                class=" w-[40px] h-[40px] rounded-full relative m-2 object-cover">
+                            <div class="flex flex-col gap-2 p-2">
+                                <span class="oswald font-semibold text-[12px]">VLAD CRISTEA</span>
+                                <p class="oswald text-[10px] ">Lorem ipsum dolor sit amet, consectetur adipiscing
+                                    elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="break-inside-avoid mb-4 bg-white p-3 hover:shadow-xl rounded shadow-sm " data-index="2">
+                        <div class="flex flex-row hover:flex-col bg-white">
+                            <img src="https://www.nme.com/wp-content/uploads/2023/10/bae-suzy-retirement-getty.jpg"
+                                class=" w-[40px] h-[40px] rounded-full relative m-2 object-cover">
+                            <div class="flex flex-col gap-2 p-2">
+                                <span class="oswald font-semibold text-[12px]">JESSICA FROM EATER.APP</span>
+                                <p class="oswald text-[10px] ">Accusantium doloremque laudantium, totam rem aperiam.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="break-inside-avoid mb-4 bg-white p-3 rounded hover:shadow-xl shadow-sm " data-index="3">
+                        <div class="flex flex-row hover:flex-col bg-white">
+                            <img src="https://wallpaperaccess.com/full/5660999.jpg"
+                                class=" w-[40px] h-[40px] rounded-full relative m-2 object-cover">
+                            <div class="flex flex-col gap-2 p-2">
+                                <span class="oswald font-semibold text-[12px]">HAILEY DOE</span>
+                                <p class="oswald text-[10px] ">Just in love with these burgers!</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="flex justify-center items-center mb-4">
+                        <Button class="md:hidden p-3 oswald font-semibold border-2 w-[200px] " id="loadMore">LOAD MORE</Button>
+                    </div>
+
+                    <div class="break-inside-avoid mb-4 bg-white p-3 rounded shadow-sm hover:shadow-xl hidden md:block" data-index="4">
+                        <div class="flex flex-row hover:flex-col bg-white ">
+                            <img src="https://tse1.mm.bing.net/th/id/OIP.Ig6gw3o0wQf3PsIbkAaadgHaH1?rs=1&pid=ImgDetMain&o=7&rm=3"
+                                class=" w-[40px] h-[40px] rounded-full relative m-2 object-cover">
+                            <div class="flex flex-col gap-2 p-2">
+                                <span class="oswald font-semibold text-[12px]">ANDREEA @EATTWICE</span>
+                                <p class="oswald text-[10px] ">Consectetur adipiscing elit, sed do eiusmod tempor
+                                    incididunt
+                                    ut
+                                    labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+                                    exercitation
+                                    ullamco
+                                    laboris nisi ut aliquip ex ea commodo consequat.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="break-inside-avoid mb-4 bg-white p-3 rounded shadow-sm hover:shadow-xl hidden md:block" data-index="5">
+                        <div class="flex flex-row hover:flex-col bg-white">
+                            <img src="https://www.thefamouspeople.com/profiles/images/kim-so-hyun-1.jpg"
+                                class=" w-[40px] h-[40px] rounded-full relative m-2 object-cover">
+                            <div class="flex flex-col gap-2 p-2">
+                                <span class="oswald font-semibold text-[12px]">JUST MARIA</span>
+                                <p class="oswald text-[10px] ">Ut enim ad minim veniam, quis nostrud exercitation
+                                    ullamco
+                                    laboris nisi ut aliquip ex ea commodo consequat.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="break-inside-avoid mb-4 bg-white p-3 rounded shadow-sm hover:shadow-xl hidden md:block" data-index="6">
+                        <div class="flex flex-row hover:flex-col bg-white">
+                            <img src="https://www.nme.com/wp-content/uploads/2023/10/bae-suzy-retirement-getty.jpg"
+                                class=" w-[40px] h-[40px] rounded-full relative m-2 object-cover">
+                            <div class="flex flex-col gap-2 p-2">
+                                <span class="oswald font-semibold text-[12px]">JESSICA FROM EATER.COM</span>
+                                <p class="oswald text-[10px] ">Accusantium doloremque laudantium, totam rem aperiam.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="break-inside-avoid mb-4 bg-white p-3 rounded shadow-sm hover:shadow-xl hidden md:block" data-index="7">
+                        <div class="flex flex-row hover:flex-col bg-white">
+                            <img src="https://static.toiimg.com/thumb/msid-97028719,width-960,height-1280,resizemode-6.cms"
+                                class=" w-[40px] h-[40px] rounded-full relative m-2 object-cover">
+                            <div class="flex flex-col gap-2 p-2">
+                                <span class="oswald font-semibold text-[12px]">MATHEW EATS ALL</span>
+                                <p class="oswald text-[10px] ">Sed perspiciatis unde omnis iste natus error sit
+                                    voluptatum accusantium doloremque laudantium, totam rem aperium.
+                                    <br>
+                                    <br> Just the best in town. Try it!
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="break-inside-avoid mb-4 bg-white p-3 rounded shadow-sm hover:shadow-xl hidden md:block" data-index="8">
+                        <div class="flex flex-row hover:flex-col bg-white">
+                            <img src="https://wallpaperaccess.com/full/5660999.jpg"
+                                class=" w-[40px] h-[40px] rounded-full relative m-2 object-cover">
+                            <div class="flex flex-col gap-2 p-2">
+                                <span class="oswald font-semibold text-[12px]">REBEKAH MIKAELSON</span>
+                                <p class="oswald text-[10px] ">Yummy burgers!</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="break-inside-avoid mb-4 bg-white p-3 rounded shadow-sm hover:shadow-xl hidden md:block" data-index="9">
+                        <div class="flex flex-row hover:flex-col  bg-white">
+                            <img src="https://aaps.space/kundli/park-bo-gum/park-bo-gum.jpeg"
+                                class=" w-[40px] h-[40px] rounded-full relative m-2 object-cover">
+                            <div class="flex flex-col gap-2 p-2">
+                                <span class="oswald font-semibold text-[12px]">UIDELI.COM</span>
+                                <p class="oswald text-[10px] ">Lorem ipsum dolor sit amet, consectetur adipiscing
+                                    elit, sed
+                                    do
+                                    eiusmod tempor incididunt ut labore et dolore magna
+                                    aliqua.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    </section>
+    <section class="snap-start  w-full flex items-center justify-center" id="social">
+        <div class="bg-[#ef491f] text-[#181028] md:p-16 p-6 space-y-4 shadow-lg  w-full max-w-[1000px] ">
+            <div class="container lg:mt-4">
+                <div class="grid md:grid-cols-2  md:auto-rows-auto md:gap-9 gap-5">
+                    <div class="md:col-span-2 columns-2 md:flex md:flex-row md:gap-0 ">
+                        <img class="md:w-[20%] w-[100px] md:block hidden" src="https://icodethis.com/images/jos_burger/footer_1.jpg">
+                        <img class="md:w-[20%] w-[100px]" src="https://icodethis.com/images/jos_burger/footer_3.jpg">
+                        <img class="md:w-[20%] w-[100px]" src="https://icodethis.com/images/jos_burger/footer_4.jpg">
+                        <img class="md:w-[20%] w-[100px]" src="https://icodethis.com/images/jos_burger/footer_2.jpg">
+                        <p
+                            class="md:w-[20%] w-[100px] bg-[#eef766] text-[#ef491f] oswald md:p-5 p-4 md:text-[25px] text-[15px] font-bold">
+                            FOLLOW
+                            US ON INSTAGRAM </p>
+                    </div>
+                    <div class="flex flex-col gap-2 text-black">
+                        <div>
+                            <span class="bowlby-one-regular md:text-[60px] text-[40px] text-black max-w-sm">JO'S<span
+                                    class="align-top text-[40px]">©</span></span>
+                        </div>
+                        <div>
+                            <p class="bowlby-one-regular text-[30px] leading-none max-w-sm">SUBSCRIBE TO OUR
+                                NEWSLETTER
+                            <p>
+                        </div>
+                        <div class="flex flex-col gap-4">
+                            <p class="oswald md:text-[10px] text-[14px] max-w-sm">By subscribing to our newsletter,
+                                you will recieve the latest
+                                tips, and promotions about our products and services straight to your inbox.</p>
+                            <div class="flex flex-col md:block gap-3">
+                                <input placeholder="Enter your email"
+                                    class="appearance-none border-black border bg-transparent md:p-2 p-4 m-0 shadow-none outline-none  placeholder:text-black oswald md:text-[10px] text-[13px] md:w-[250px] max-w-250px text-center md:text-start" />
+                                <button class="oswald text-white bg-black md:p-2 px-4 p-4  md:text-[11px] text-[14px] -ml-1 hover:text-black hover:bg-white">SUBSCRIBE</button>
+                            </div>
+                        </div>
+                        <div>
+                            <ul
+                                class="md:flex flex-row gap-3 mt-10 oswald font-middle text-[12px] cursor-pointer hidden">
+                                <li>PRIVACY</li>
+                                <li>TERMS</li>
+                                <li>ACCESSIBILITY</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div>
+                        <ul
+                            class="flex md:flex-row flex-col gap-5 oswald justify-end items-center mt-5 font-bold md:text-[17px] text-[12px] cursor-pointer">
+                            <li><a class="hover:border-b border-black"   href="#about">ABOUT</a></li>
+                            <li><a class="hover:border-b border-black"   href="#menu">MENU</a></li>
+                            <li><a class="hover:border-b border-black"   href="#reviews">REVIEWS</a></li>
+                            <li><a class="hover:border-b border-black"   href="#social">SOCIAL</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <script src="index.js"></script>
+</body>
+<!-- Change code above this line -->
+
+</html>
